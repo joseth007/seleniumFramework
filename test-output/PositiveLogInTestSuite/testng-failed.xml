@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [PositiveLogInTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="DropDownTest-CH(failed)">
+    <classes>
+      <class name="com.herokuapp.theinternet.dropdownpagetest.DropDownPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="selectDropdownOption"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.dropdownpagetest.DropDownPageTests -->
+    </classes>
+  </test> <!-- DropDownTest-CH(failed) -->
+</suite> <!-- Failed suite [PositiveLogInTestSuite] -->
